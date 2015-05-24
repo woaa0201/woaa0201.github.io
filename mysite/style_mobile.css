@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  position: relative;
+  font-size: 16px;
+}
+
+.jumbotron {
+  top: 2em;
+  height: calc(100% - 2em);
+  width: 100%;
+  position: absolute;
+}
+
+.website {
+  left: -50%;
+  width: 50%;
+  position: fixed;
+}
+
+.website-menu {
+  display: inline;
+}
+
+.website-menu li {
+  height: 2em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.website-close {
+  float: left;
+}
+
+.website-condense {
+  float: right;
+}
+
+.website-expand {
+  float: right;
+} 
+
+#websitedata {
+  position: relative;
+  top: -1em;
+  height: calc(100% - 2em);
+}
+
+#menu ul {
+  display: inline;
+  padding: 0px;
+  z-index: 1;
+}
+
+#menu ul li {
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+#menu ul li ul {
+  position: absolute;
+  left: 0;
+  width: 9em;
+}
+
+#menu ul li ul li { 
+  background: white;
+}
+
+@media only screen /* iPad STYLES GO HERE */
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+html {
+        font-size: 120%;
+	}
+}
+
+@media only screen /* iPhone 5/5S STYLES GO HERE */
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+html {
+        font-size: 200%;
+	}
+}
+
+@media only screen /* iPhone 6 Plus STYLES GO HERE */
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+html {
+        font-size: 140%;
+	}
+}
+
+@media only screen /* iPhone 6 STYLES GO HERE */
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+html {
+        font-size: 160%;
+	}
+}
