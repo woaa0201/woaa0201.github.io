@@ -38,7 +38,7 @@ var main = function() {
     });
     
     $('.geogebra-menu').click(function() {
-		opensite('http://web.geogebra.org/app/');
+		opensite('https://web.geogebra.org/app/');
     });
     
     $('.sage-menu').click(function() {
