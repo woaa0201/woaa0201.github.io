@@ -70,30 +70,28 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+/* iPad */
 body {
-        font-size: 300%;
+        font-size: 120%;
 	}
 }
 
-@media only screen /* iPhone 5/5S STYLES GO HERE */
-and (min-device-width : 320px) 
-and (max-device-width : 568px) { 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+/* iPhone 5/5S */
 body {
         font-size: 200%;
 	}
 }
 
-@media only screen /* iPhone 6 Plus STYLES GO HERE */
-and (min-device-width : 414px) 
-and (max-device-width : 736px) { 
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
+/* iPhone 6 Plus */
 body {
         font-size: 140%;
 	}
 }
 
-@media only screen /* iPhone 6 STYLES GO HERE */
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
+@media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
+/* iPhone 6 */
 body {
         font-size: 160%;
 	}
