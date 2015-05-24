@@ -79,20 +79,20 @@ body {
 /* iPhone 5/5S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
 body {
-        font-size: 150%;
+        font-size: 140%;
 	}
 }
 
 /* iPhone 6 Plus */
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
 body {
-        font-size: 150%;
+        font-size: 140%;
 	}
 }
 
 /* iPhone 6 */
 @media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
 body {
-        font-size: 150%;
+        font-size: 140%;
 	}
 }
