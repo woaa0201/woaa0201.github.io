@@ -69,29 +69,29 @@ body {
   background: white;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
 /* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
 body {
         font-size: 120%;
 	}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
 /* iPhone 5/5S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
 body {
         font-size: 200%;
 	}
 }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
 /* iPhone 6 Plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
 body {
         font-size: 140%;
 	}
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
 /* iPhone 6 */
+@media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
 body {
         font-size: 160%;
 	}
