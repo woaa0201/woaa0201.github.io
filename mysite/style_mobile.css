@@ -1,10 +1,12 @@
 html {
   font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
   margin: 0;
   position: relative;
+  font-size: 125%;
 }
 
 .jumbotron {
@@ -56,13 +58,15 @@ body {
 
 #menu ul li {
   padding: 0.5em;
+  padding-top: 0.25em;
   cursor: pointer;
 }
 
 #menu ul li ul {
+  top: 2em;
   position: absolute;
   left: 0;
-  width: 9em;
+  width: 9.5em;
 }
 
 #menu ul li ul li { 
@@ -72,27 +76,27 @@ body {
 /* iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
 body {
-        font-size: 150%;
+        font-size: 175%;
 	}
 }
 
 /* iPhone 5/5S */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
 body {
-        font-size: 130%;
+        font-size: 225%;
 	}
 }
 
 /* iPhone 6 Plus */
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
 body {
-        font-size: 130%;
+        font-size: 200%;
 	}
 }
 
 /* iPhone 6 */
 @media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
 body {
-        font-size: 130%;
+        font-size: 210%;
 	}
 }
