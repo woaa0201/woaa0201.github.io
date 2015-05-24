@@ -1,0 +1,64 @@
+% Presentation Testing
+% Aaron Wojahn
+
+# Links
+
+- [Slidy](ptestslidy.html)
+- [Reveal.js](ptestrevealjs.html)
+- [DZ Slides](ptestdzslides.html)
+- [Slideous](ptestslideous.html)
+- [S5](ptests5.html)
+
+# Vertical Slides
+
+## Numbered List Slide
+
+1. This is the first item.
+2. This is the second item.
+3. This is the third item.
+
+## Bullets Slide
+
+- Bullet one.
+- Bullet two.
+
+# LaTeX
+
+## Inline and Centered.
+
+- This is inline math: $\sum_{i=0}^n \frac{i^2 - 1}{3i}$.
+- This is centered math:
+$$\int_0^3 \! x^2 \, \mathrm{d}x$$
+
+## Aligned Math Slide
+
+$$
+\begin{align*}
+3x+4 &= 10 \\
+3x &= 6 \\
+x &= 2
+\end{align*}
+$$
+
+#
+
+## Vertical Slide 1
+asdf
+
+## Vertical Slide 2
+fdsa
+
+# Video Slide
+<center>
+<video width="100%" src="bvs.mp4" controls>
+Your browser does not support the <code>video</code> element.
+</video>
+</center>
+
+# Embed PDF File
+<center>
+<object width="100%" height="500" data="VectorsRetest.pdf"></object>
+</center>
+
+# Web Link Slide
+[Wolfram|Alpha](http://www.wolframalpha.com)

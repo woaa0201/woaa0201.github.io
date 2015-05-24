@@ -1,0 +1,133 @@
+body {
+  background: white;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.jumbotron {
+  color: black;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  top: 38px;
+  height: calc(100% - 38px);
+  height: -webkit-calc(100% - 38px);
+  height: -moz-calc(100% - 38px);
+  height: -ms-calc(100% - 38px);
+  height: -o-calc(100% - 38px);
+  width: 100%;
+  position: absolute;
+}
+
+.website {
+  left: -50%;  /* start off behind the scenes */
+  width: 50%;
+  position: fixed;
+}
+
+.website-menu {
+  text-align: left;
+  margin: 0;
+  display: inline;
+  padding: 0px;
+  list-style: none;
+}
+
+.website-menu li {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-style: bold;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.website-close {
+  float: left;
+}
+
+.website-condense {
+  float: right;
+}
+
+.website-expand {
+  float: right;
+} 
+
+#websitedata {
+  position: relative;
+  top: -20px;
+  height: calc(100% - 38px);
+  height: -webkit-calc(100% - 38px);
+  height: -moz-calc(100% - 38px);
+  height: -ms-calc(100% - 38px);
+  height: -o-calc(100% - 38px);
+}
+
+#menu ul {
+  text-align: left;
+  margin: 0;
+  display: inline;
+  padding: 0px;
+  list-style: none;
+  z-index: 1;
+}
+
+#menu ul li {
+  font-style: bold;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#menu ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 175px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: block;
+}
+
+#menu ul li ul li { 
+  display: block; 
+  color: black;
+  background: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
