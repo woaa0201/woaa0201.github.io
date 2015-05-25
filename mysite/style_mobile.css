@@ -73,15 +73,22 @@ body {
   background: white;
 }
 
-/* iPad Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) { 
+/* iPad Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { 
 body {
-        font-size: 103.13%;
+        font-size: 275%;
+	}
+}
+
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { 
+body {
+        font-size: 206.25%;
 	}
 }
 
 /* iPhone 5/5S */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) { 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) { 
 body {
         font-size: 77.46%;
 	}
