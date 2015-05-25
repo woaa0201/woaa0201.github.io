@@ -1,13 +1,12 @@
 html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   position: relative;
-  font-size: 125%;
+  font-size: 137.5%;
 }
 
 .jumbotron {
@@ -74,30 +73,16 @@ body {
   background: white;
 }
 
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+/* iPad Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) { 
 body {
-        font-size: 175%;
+        font-size: 103.13%;
 	}
 }
 
 /* iPhone 5/5S */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) { 
 body {
-        font-size: 225%;
-	}
-}
-
-/* iPhone 6 Plus */
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) { 
-body {
-        font-size: 200%;
-	}
-}
-
-/* iPhone 6 */
-@media only screen and (min-device-width: 375px) and (max-device-width : 667px) { 
-body {
-        font-size: 210%;
+        font-size: 77.46%;
 	}
 }
