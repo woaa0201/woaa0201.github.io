@@ -11,15 +11,12 @@ Any questions on Page 152 \#23-45 odd?
 
 - I can setup an exponential function to model and answer questions about compound interest.
 - I understand the difference between nominal rate and effective rate for earning interest.
-\end{enumerate}
 
 # Nominal Versus Effective Rate
 
 The **nominal rate** is the interest rate over the year. It could be compounded monthly, daily, continuously, etc.
 
 The **effective rate** tells you how much interest the investment actually earns after being compounded throughout the year.
-
-\end{frame}
 
 # Compound Interest Formula
 
