@@ -1,0 +1,100 @@
+# Previous Homework Questions
+
+Any questions on Page 152 \#23-45 odd?
+
+# Warm Up Problem
+
+- Is there a difference between a bank account that pays 24\% interest once per year and one that pays 2\% every month?
+- Which would you rather have?
+
+# Objectives
+
+- I can setup an exponential function to model and answer questions about compound interest.
+- I understand the difference between nominal rate and effective rate for earning interest.
+\end{enumerate}
+
+# Nominal Versus Effective Rate
+
+The **nominal rate** is the interest rate over the year. It could be compounded monthly, daily, continuously, etc.
+
+The **effective rate** tells you how much interest the investment actually earns after being compounded throughout the year.
+
+\end{frame}
+
+# Compound Interest Formula
+
+If interest at an annual rate of $r$ is compounded $n$ times a year, then $r/n$ times the current balance is added $n$ times a year.  Therefore, with an initial deposit of \$$P$, the balance $t$ years later is
+
+$$B = P \cdot \bigg(1+\cfrac{r}{n}\bigg)^{nt}$$
+
+Note that $r$ is the nominal rate; for example, $r = 0.05$ if the annual rate is 5\%.
+
+# Example 1
+
+What are the nominal and effective annual rates of an account paying 24\% interest compounded monthly?
+
+# Example 1 Solution
+
+Nominal Rate: 24\%
+
+Effective Rate: $\left(1+\frac{.24}{12}\right)^{12(1)} = (1.02)^{12} \approx 1.26824$, so 26.824\%
+
+# Example 1 - You Try
+
+What are the nominal and effective annual rates of an account paying 12\% interest, compounded semi-annually?  Compounded semi-monthly?
+
+# Example 1 - You Try Solution
+*Compounded semi-annually*
+
+Nominal Rate: 12\%
+
+Effective Rate: $\left(1+\frac{.12}{2}\right)^{2(1)} = (1.06)^{2} \approx 1.1236$, so 12.36\%
+
+*Compounded semi-monthly*
+
+Nominal Rate: 12\%
+
+Effective Rate: $\left(1+\frac{.12}{24}\right)^{24(1)} = (1.005)^{24} \approx 1.12716$, so 12.716\%
+
+# Example 2
+
+What is the effective annual rate of an account that pays interest at the nominal rate of 6\% per year, compounded quarterly?  Compounded bi-monthly?
+
+# Example 2 Solution
+
+Compounded quarterly:
+
+$\left(1+\frac{.06}{4}\right)^{4(1)} = (1.015)^{4} \approx 1.06136$, so 6.136\%
+
+Compounded bi-monthly:
+
+$\left(1+\frac{.06}{6}\right)^{6(1)} = (1.01)^{6} \approx 1.06152$, so 6.152\%
+
+# Example 2 - You Try
+
+What is the effective annual rate of an account that pays interest at the nominal rate of 10\% per year, compounded daily?  Compounded hourly?
+
+# Example 2 - You Try Solution
+
+Compounded quarterly:
+
+$\left(1+\frac{.1}{365}\right)^{365(1)} = (1.000273973)^{365} \approx 1.105156$, so 10.5156\%
+
+Compounded bi-monthly:
+
+$\left(1+\frac{.1}{8760}\right)^{8760(1)} = (1.000011416)^{8760} \approx 1.10517$, so 10.517\%
+
+\end{frame}
+
+# Example 3
+
+At the beginning of the year you deposit $P$ dollars in an account paying interest at the nominal rate of 4\% per year compounded quarterly.  By what factor does $P$ grow in 3 years?
+
+# Example 3 Solution
+
+$P\left(1+\frac{.04}{4}\right)^{4(3)} = P(1.01)^{12} \approx P\cdot 1.12682503$, or 12.682503\% increase.
+
+# 4.4 Assignments
+
+- Homework Check: Page 152 \#23-45 odd
+- Due Monday: Page 158 \#1-13 odd and \#15-22 all
