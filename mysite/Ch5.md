@@ -68,6 +68,9 @@ $$10 = 22(0.87)^q$$
 * I can apply the properties of logarithms to solve equations.
 
 # Warm-Up Problem
+Simplify.
+$$log(\sqrt{10000})$$
+
 Solve the equation using logs.
 $$\frac{2}{7} = (0.6)^{2t}$$
 
