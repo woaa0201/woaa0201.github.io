@@ -92,28 +92,52 @@ $$\frac{2}{7} = (0.6)^{2t}$$
 * Day 1 Page 185, 1-17 odd
 * Day 2 Page 186, 19-33 odd
 * Day 3 Page 187, 35-51 odd (not 45, 51)
+* All Due Wednesday
 
 # 5.2 Logarithms and Exponential Models
 ## Objectives
-* 
+* I can use logarithms to solve exponential equations.
+* I can setup an exponential equation to model doubling and half-life.
 
-# Example 1
+# Example 1 - Doubling Time
+You place 1000 MMK in a KBZ Bank fixed deposit bank account. According to their website, a 1 month term account earns 9% interest, 3 months earns 9.25%, 6 months earns 9.5%, 9 months earns 9.75%, and 12 months earns 10%.
 
-# Doubling Time
+<iframe src="https://www.kbzbank.com/en/accounts/fixed-deposit-account/" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="40%" width="100%"></iframe>
 
-# Example 2
+* How often is a fixed account compounded at KBZ Bank?
+* $\$ 1 \approx 1300$ MMK. If you deposit \$1000000 into the KBZ fixed deposit account with a 12 month term, how much interest would you earn?
+* If you open an account with 1000 MMK, how long would it take to double your money with each term account?
 
-# Half-Life
+# Example 2 - Half-Life
 
-# Example 3
+The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr near the reactor core. After 22 years, the radiation levels inside the reactor hall were about 34 Sv/hr. More than half of people exponsed to 5 Sv will die from the radiation.
 
-The quantity, $Q$, of a substance decays according to the formula $Q = Q_0e^{-kt}$, where $t$ is in minutes. The half-life of the substance is 11 minutes. What is the value of $k$?
+<center>
+![Reactor](media/reactor.jpg)
+</center>
+
+* What is the rate at which the radiation is decaying? Assume exponential decay.
+* How long was it until half the radiation remained?
+* How long would it take to receive a lethal dose of radiation in the reactor hall today?
 
 # Converting Between $Q = ab^t$ and $Q = ae^t$
+Any exponential function can be written in either of the two forms:
+$$Q = ab^t$ \text{ or } $Q = ae^{kt}$$
+If $b = e^k$, so $k = \ln(b)$, the two formulas represent the same function.
+
+# Example 3
+Convert to the form $Q = ab^t$.
+$$Q = 0.3e^{0.7t}$$
 
 # Example 4
+Convert to the form $Q = ae^{kt}$. Give the starting value $a$, the growth rate $r$, and the continuous growth rate $k$.
+$$Q = 5(2)^{t/8}$$
 
-# Example 5
+# 5.2 Assignments and 5.1 Homework Check
+* Homework Check: 5.1, Page 185, 1-51 odd (not 45, 51)
+* Day 1, Page 194, 1-19 odd
+* Day 2, Page 194, 21-51 odd (not 43)
+* 5.2 Assignments are due Monday
 
 # 5.3 The Logarithmic Function
 
