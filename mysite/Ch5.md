@@ -94,6 +94,36 @@ $$\frac{2}{7} = (0.6)^{2t}$$
 * Day 3 Page 187, 35-51 odd (not 45, 51)
 * All Due Wednesday
 
+# 5.1 Day 3
+## Agenda
+* Warm-Up Problem
+* Page 186, 19-33 odd Assignment Questions
+* Work time
+
+## Objectives
+* I can convert between exponential and logarithmic statements.
+* I can apply the properties of logarithms to solve equations.
+
+# Warm-Up Problem
+1. Use the properties of logarithms to solve for $x$.
+$$\log(3(2)^x) = 8$$
+
+2. Solve the equation exactly for $x$.
+$$e^{x+5} = 7(2)^x$$
+
+*Properties of the Natural Logarithm*
+
+* The functions $e^x$ and $\ln x$ are inverses, so they "undo" each other: $\ln(e^x) = x$ for all $x$ and $e^{\ln x} = x$ for $x > 0$.
+* For $a$ and $b$ both positive and any value of $t$: $\ln (ab) = \ln a + \ln b$, $\ln \left(\frac{a}{b}\right) = \ln a - \ln b$, and $\ln (b^t) = t\ln b$.
+
+# Questions on Page 186, 19-33 odd?
+
+# Work time on Assignments
+* Day 1 Page 185, 1-17 odd
+* Day 2 Page 186, 19-33 odd
+* Day 3 Page 187, 35-51 odd (not 45, 51)
+* All Due Tomorrow
+
 # 5.2 Logarithms and Exponential Models
 ## Objectives
 * I can use logarithms to solve exponential equations.
