@@ -42,7 +42,7 @@ var main = function() {
     });
     
     $('.sage-menu').click(function() {
-		opensite('https://cloud.sagemath.com/projects');
+		opensite('https://todaysmeet.com/room/2684243/embed?type=live&hide_ui=0');
     });
     
     $('.website-close').click(function() {

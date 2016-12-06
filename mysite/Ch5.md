@@ -116,6 +116,30 @@ $$e^{x+5} = 7(2)^x$$
 * The functions $e^x$ and $\ln x$ are inverses, so they "undo" each other: $\ln(e^x) = x$ for all $x$ and $e^{\ln x} = x$ for $x > 0$.
 * For $a$ and $b$ both positive and any value of $t$: $\ln (ab) = \ln a + \ln b$, $\ln \left(\frac{a}{b}\right) = \ln a - \ln b$, and $\ln (b^t) = t\ln b$.
 
+# Warm-Up Problem 1 Solution
+1. Use the properties of logarithms to solve for $x$.
+
+\begin{align*}
+\log(3(2)^x) &= 8 \\
+\log(3)+\log(2^x) &= 8 \\
+\log(3)+x\log(2) &= 8 \\
+x\log(2) &= 8-\log(3) \\
+x &= \frac{8-\log(3)}{\log(2)} \\
+\end{align*}
+
+# Warm-Up Problem 2 Solution
+2. Solve the equation exactly for $x$.
+
+\begin{align*}
+e^{x+5} &= 7(2)^x \\
+\ln(e^{x+5}) &= \ln(7(2)^x) \\
+x+5 &= \ln(7)+\ln((2)^x) \\
+x+5 &= \ln(7)+x\ln(2) \\
+x-x\ln(2) &= \ln(7)-5 \\
+x(1-\ln(2)) &= \ln(7)-5 \\
+x &= \frac{\ln(7)-5}{1-\ln(2)}
+\end{align*}
+
 # Questions on Page 186, 19-33 odd?
 
 # Work time on Assignments
@@ -152,7 +176,7 @@ The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr 
 
 # Converting Between $Q = ab^t$ and $Q = ae^t$
 Any exponential function can be written in either of the two forms:
-$$Q = ab^t$ \text{ or } $Q = ae^{kt}$$
+$$Q = ab^t \text{ or } Q = ae^{kt}$$
 If $b = e^k$, so $k = \ln(b)$, the two formulas represent the same function.
 
 # Example 3
