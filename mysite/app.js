@@ -42,7 +42,7 @@ var main = function() {
     });
     
     $('.sage-menu').click(function() {
-		opensite('http://today.io/1lj6b');
+		opensite('todaysmeet.html');
     });
     
     $('.website-close').click(function() {
