@@ -232,6 +232,20 @@ x &amp;= \frac{\ln(7)-5}{1-\ln(2)}
 <li>If you open an account with 1000 MMK, how long would it take to double your money with each term account?</li>
 </ul>
 </div>
+<div id="example-1---doubling-time---solution" class="slide section level1">
+<h1>Example 1 - Doubling Time - Solution</h1>
+<p>You place 1000 MMK in a KBZ Bank fixed deposit bank account. According to their website, a 1 month term account earns 9% interest, 3 months earns 9.25%, 6 months earns 9.5%, 9 months earns 9.75%, and 12 months earns 10%.</p>
+<ul>
+<li>How often is a fixed account compounded at KBZ Bank? Depends on the term. <span class="math inline">\(B = P\left(1+\frac{r}{n}\right)^{nt}\)</span></li>
+<li><span class="math inline">\(\$ 1 \approx 1300\)</span> MMK. If you deposit $1,000,000 into the KBZ fixed deposit account with a 12 month term, how much interest would you earn? <span class="math inline">\(P = 1000000\)</span>, <span class="math inline">\(t = 1\)</span>, <span class="math inline">\(r = 0.1\)</span>, <span class="math inline">\(n = 1\)</span>, so <span class="math inline">\(B = 1000000\left(1+\frac{0.1}{1}\right)^{1(1)} = 1100000\)</span>. This means they earn $100000 in interest.</li>
+<li>If you open an account with 1000 MMK, how long would it take to double your money with each term account?</li>
+<li>1 month: <span class="math inline">\(n = 12\)</span> and <span class="math inline">\(r = 0.09\)</span>, so <span class="math inline">\(2000 = 1000\left(1+\frac{0.09}{12}\right)^{12t}\)</span>. <span class="math inline">\(t = \ln(2)/(12\ln\left(1+\frac{0.09}{12}\right)) \approx 7.730\)</span> years.</li>
+<li>3 months: <span class="math inline">\(n = 4\)</span> and <span class="math inline">\(r = 0.0925\)</span>, so <span class="math inline">\(2000 = 1000\left(1+\frac{0.0925}{4}\right)^{4t}\)</span>. <span class="math inline">\(t = \ln(2)/(4\ln\left(1+\frac{0.0925}{4}\right)) \approx 7.579\)</span> years.</li>
+<li>6 months: <span class="math inline">\(n = 2\)</span> and <span class="math inline">\(r = 0.095\)</span>, so <span class="math inline">\(2000 = 1000\left(1+\frac{0.095}{2}\right)^{2t}\)</span>. <span class="math inline">\(t = \ln(2)/(2\ln\left(1+\frac{0.095}{2}\right)) \approx 7.468\)</span> years.</li>
+<li>9 months: <span class="math inline">\(n = 12/9\)</span> and <span class="math inline">\(r = 0.0975\)</span>, so <span class="math inline">\(2000 = 1000\left(1+\frac{0.0975}{12/9}\right)^{(12/9)t}\)</span>. <span class="math inline">\(t = \ln(2)/((12/9)\ln\left(1+\frac{0.0975}{(12/9)}\right)) \approx 7.366\)</span> years.</li>
+<li>12 months: <span class="math inline">\(n = 1\)</span> and <span class="math inline">\(r = 0.1\)</span>, so <span class="math inline">\(2000 = 1000\left(1+\frac{0.1}{1}\right)^{(1)t}\)</span>. <span class="math inline">\(t = \ln(2)/(1\ln\left(1+\frac{0.1}{1}\right)) \approx 7.272\)</span> years.</li>
+</ul>
+</div>
 <div id="example-2---half-life" class="slide section level1">
 <h1>Example 2 - Half-Life</h1>
 <p>The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr near the reactor core. After 22 years, the radiation levels inside the reactor hall were about 34 Sv/hr. More than half of people exponsed to 5 Sv will die from the radiation.</p>
@@ -242,6 +256,15 @@ x &amp;= \frac{\ln(7)-5}{1-\ln(2)}
 <li>What is the rate at which the radiation is decaying? Assume exponential decay.</li>
 <li>How long was it until half the radiation remained?</li>
 <li>How long would it take to receive a lethal dose of radiation in the reactor hall today?</li>
+</ul>
+</div>
+<div id="example-2---half-life---solution" class="slide section level1">
+<h1>Example 2 - Half-Life - Solution</h1>
+<p>The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr near the reactor core. After 22 years, the radiation levels inside the reactor hall were about 34 Sv/hr. More than half of people exponsed to 5 Sv will die from the radiation.</p>
+<ul>
+<li>What is the rate at which the radiation is decaying? Assume exponential decay. <span class="math inline">\(34 = 300e^{k(22)}\)</span>, so <span class="math inline">\(k = \ln(34/300)/22 \approx -0.098973725\)</span>, so down by 9.897%.</li>
+<li>How long was it until half the radiation remained? <span class="math inline">\(150 = 300e^{-0.098973725t}\)</span>, so <span class="math inline">\(t = \ln(150/300)/(-0.098973725) \approx 7.003345388\)</span> years.</li>
+<li>How long would it take to receive a lethal dose of radiation in the reactor hall today? <span class="math inline">\(Sv = 300e^{-0.098973725(30)} \approx 15.40312983\)</span>, so 15 Sv/hr would mean 5 Sv in 20 minutes.</li>
 </ul>
 </div>
 <div id="converting-between-q-abt-and-q-aet" class="slide section level1">

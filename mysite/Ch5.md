@@ -162,6 +162,18 @@ You place 1000 MMK in a KBZ Bank fixed deposit bank account. According to their 
 * $\$ 1 \approx 1300$ MMK. If you deposit \$1000000 into the KBZ fixed deposit account with a 12 month term, how much interest would you earn?
 * If you open an account with 1000 MMK, how long would it take to double your money with each term account?
 
+# Example 1 - Doubling Time - Solution
+You place 1000 MMK in a KBZ Bank fixed deposit bank account. According to their website, a 1 month term account earns 9% interest, 3 months earns 9.25%, 6 months earns 9.5%, 9 months earns 9.75%, and 12 months earns 10%.
+
+* How often is a fixed account compounded at KBZ Bank? Depends on the term. $B = P\left(1+\frac{r}{n}\right)^{nt}$
+* $\$ 1 \approx 1300$ MMK. If you deposit \$1,000,000 into the KBZ fixed deposit account with a 12 month term, how much interest would you earn? $P = 1000000$, $t = 1$, $r = 0.1$, $n = 1$, so $B = 1000000\left(1+\frac{0.1}{1}\right)^{1(1)} = 1100000$. This means they earn $100000 in interest.
+* If you open an account with 1000 MMK, how long would it take to double your money with each term account?
+* 1 month: $n = 12$ and $r = 0.09$, so $2000 = 1000\left(1+\frac{0.09}{12}\right)^{12t}$. $t = \ln(2)/(12\ln\left(1+\frac{0.09}{12}\right)) \approx 7.730$ years.
+* 3 months: $n = 4$ and $r = 0.0925$, so $2000 = 1000\left(1+\frac{0.0925}{4}\right)^{4t}$. $t = \ln(2)/(4\ln\left(1+\frac{0.0925}{4}\right)) \approx 7.579$ years.
+* 6 months: $n = 2$ and $r = 0.095$, so $2000 = 1000\left(1+\frac{0.095}{2}\right)^{2t}$. $t = \ln(2)/(2\ln\left(1+\frac{0.095}{2}\right)) \approx 7.468$ years.
+* 9 months: $n = 12/9$ and $r = 0.0975$, so $2000 = 1000\left(1+\frac{0.0975}{12/9}\right)^{(12/9)t}$. $t = \ln(2)/((12/9)\ln\left(1+\frac{0.0975}{(12/9)}\right)) \approx 7.366$ years.
+* 12 months: $n = 1$ and $r = 0.1$, so $2000 = 1000\left(1+\frac{0.1}{1}\right)^{(1)t}$. $t = \ln(2)/(1\ln\left(1+\frac{0.1}{1}\right)) \approx 7.272$ years.
+
 # Example 2 - Half-Life
 
 The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr near the reactor core. After 22 years, the radiation levels inside the reactor hall were about 34 Sv/hr. More than half of people exponsed to 5 Sv will die from the radiation.
@@ -173,6 +185,14 @@ The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr 
 * What is the rate at which the radiation is decaying? Assume exponential decay.
 * How long was it until half the radiation remained?
 * How long would it take to receive a lethal dose of radiation in the reactor hall today?
+
+# Example 2 - Half-Life - Solution
+
+The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr near the reactor core. After 22 years, the radiation levels inside the reactor hall were about 34 Sv/hr. More than half of people exponsed to 5 Sv will die from the radiation.
+
+* What is the rate at which the radiation is decaying? Assume exponential decay. $34 = 300e^{k(22)}$, so $k = \ln(34/300)/22 \approx -0.098973725$, so down by 9.897%.
+* How long was it until half the radiation remained? $150 = 300e^{-0.098973725t}$, so $t = \ln(150/300)/(-0.098973725) \approx 7.003345388$ years.
+* How long would it take to receive a lethal dose of radiation in the reactor hall today? $Sv = 300e^{-0.098973725(30)} \approx 15.40312983$, so 15 Sv/hr would mean 5 Sv in 20 minutes.
 
 # Converting Between $Q = ab^t$ and $Q = ae^t$
 Any exponential function can be written in either of the two forms:
