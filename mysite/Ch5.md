@@ -203,9 +203,17 @@ If $b = e^k$, so $k = \ln(b)$, the two formulas represent the same function.
 Convert to the form $Q = ab^t$.
 $$Q = 0.3e^{0.7t}$$
 
+# Example 3 - Solution
+Convert to the form $Q = ab^t$.
+$$Q = 0.3e^{0.7t} = 0.3(e^{0.7})^7 \approx 0.3(2.01375)^7$$
+
 # Example 4
 Convert to the form $Q = ae^{kt}$. Give the starting value $a$, the growth rate $r$, and the continuous growth rate $k$.
 $$Q = 5(2)^{t/8}$$
+
+# Example 4
+Convert to the form $Q = ae^{kt}$. Give the starting value $a$, the growth rate $r$, and the continuous growth rate $k$.
+$Q = 5(2)^{t/8} = 5\left(2^{\frac{1}{8}}\right)^t$, so $e^k = 2^{\frac{1}{8}}$ and then $k = \ln\left(2^{\frac{1}{8}}\right) \approx 0.08664$. Thus, $Q = 5e^{0.08664t}$.
 
 # 5.2 Assignments and 5.1 Homework Check
 * Homework Check: 5.1, Page 185, 1-51 odd (not 45, 51)
