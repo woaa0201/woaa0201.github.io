@@ -53,9 +53,6 @@ $$10 = 22(0.87)^q$$
 * Day 2 Page 186, 19-33 odd
 * Day 3 Page 187, 35-51 odd (not 45, 51)
 
-# Logarithm Quiz
-<iframe src="https://play.kahoot.it/#/k/5760c974-8926-437c-ba07-a294ade8cf04" style="border:0px #FFFFFF none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="84%" width="84%"></iframe>
-
 # 5.1 Day 2
 ## Agenda
 * Warm-Up Problem
@@ -194,7 +191,7 @@ The Chernobyl expolosion in 1986 initially had a radiation reading of 300 Sv/hr 
 * How long was it until half the radiation remained? $150 = 300e^{-0.098973725t}$, so $t = \ln(150/300)/(-0.098973725) \approx 7.003345388$ years.
 * How long would it take to receive a lethal dose of radiation in the reactor hall today? $Sv = 300e^{-0.098973725(30)} \approx 15.40312983$, so 15 Sv/hr would mean 5 Sv in 20 minutes.
 
-# Converting Between $Q = ab^t$ and $Q = ae^t$
+# Converting Between $Q = ab^t$ and $Q = ae^{kt}$
 Any exponential function can be written in either of the two forms:
 $$Q = ab^t \text{ or } Q = ae^{kt}$$
 If $b = e^k$, so $k = \ln(b)$, the two formulas represent the same function.
@@ -205,7 +202,7 @@ $$Q = 0.3e^{0.7t}$$
 
 # Example 3 - Solution
 Convert to the form $Q = ab^t$.
-$$Q = 0.3e^{0.7t} = 0.3(e^{0.7})^7 \approx 0.3(2.01375)^7$$
+$$Q = 0.3e^{0.7t} = 0.3(e^{0.7})^t \approx 0.3(2.01375)^t$$
 
 # Example 4
 Convert to the form $Q = ae^{kt}$. Give the starting value $a$, the growth rate $r$, and the continuous growth rate $k$.
@@ -213,10 +210,16 @@ $$Q = 5(2)^{t/8}$$
 
 # Example 4
 Convert to the form $Q = ae^{kt}$. Give the starting value $a$, the growth rate $r$, and the continuous growth rate $k$.
+
 $Q = 5(2)^{t/8} = 5\left(2^{\frac{1}{8}}\right)^t$, so $e^k = 2^{\frac{1}{8}}$ and then $k = \ln\left(2^{\frac{1}{8}}\right) \approx 0.08664$. Thus, $Q = 5e^{0.08664t}$.
 
 # 5.2 Assignments and 5.1 Homework Check
 * Homework Check: 5.1, Page 185, 1-51 odd (not 45, 51)
+* Day 1, Page 194, 1-19 odd
+* Day 2, Page 194, 21-51 odd (not 43)
+* 5.2 Assignments are due Monday
+
+# 5.2 Assignment Questions?
 * Day 1, Page 194, 1-19 odd
 * Day 2, Page 194, 21-51 odd (not 43)
 * 5.2 Assignments are due Monday
