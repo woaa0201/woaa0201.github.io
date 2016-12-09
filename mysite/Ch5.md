@@ -225,6 +225,66 @@ $Q = 5(2)^{t/8} = 5\left(2^{\frac{1}{8}}\right)^t$, so $e^k = 2^{\frac{1}{8}}$ a
 * 5.2 Assignments are due Monday
 
 # 5.3 The Logarithmic Function
+## Agenda
+* Homework Check: 5.2 Page 194, 1-51 odd (not 43)
+* 5.3 Notes
+* Work time
+
+## Objectives
+* 
+
+# The Graph, Domain, and Range of the Common Logarithm
+$\log(x)$ is the inverse of $10^x$, so the graph of $\log(x)$ is the reflection across $y = x$ of $10^x$.
+
+\begin{tikzpicture}
+\begin{axis}[xlabel={$x$},ylabel={$y$},axis lines=middle,xmin=-2,xmax=11,ymin=-2,ymax=11]
+\addplot[blue,no marks,samples=200,domain=-1:10] {log10(x)} node[above,pos=1] {$y = \log(x)$};
+\addplot[red,no marks,samples=200,domain=-1:1] {10^x} node[above,pos=1] {$y = 10^x$};
+\addplot[dashed,domain=-1:10] {x} node[above,pos=1] {$y = x$};
+\end{axis}
+\end{tikzpicture}
+
+The domain of $y = 10^x$ is all real numbers and the range is all positive real numbers.
+The domain of $y = \log(x)$ is 
+
+# Graph of Natural Logarithm
+The graph of $y = \ln(x)$ is similar to the graph of $y = \log(x)$, except it is the reflection across $y = x$ of $y = e^x$ instead of $y = 10^x$.
+
+# Example 1
+Sketch the graph $y = \ln(x)$ for $0 < x < 10$ by hand.
+
+# Chemical Acidity
+$$pH = -\log$$
+where $pH$ is the acidity of a liquid and $\left[H^+\right]$ is the hydrogen ion concentration.
+
+# Example 2
+Find the hydrogen ion concentration, $\left[H^+\right]$, for Lye, with a $pH$ of 13.
+
+# Logarithms and Orders of Magnitude
+If one object is 10 times heavier than another, we say it is an *order of magnitude* heavier. For example, the value of a dollar is two orders of magnitude greater than the value of a penny, because we have
+$$\frac{\$1}{\$0.01} = 100 = 10^2$$
+The order of magnitude is the logarithm of their ratio.
+
+# Example 3
+The diameter of the earth is about 12,742 km. The diameter of the observable universe is about 93 Gly. How many orders of magnitude larger is the diameter of the observable universe than the diameter of the earth? 1 ly is about 9.461 trillion km.
+
+# Decibels
+$$\text{Noise level in decibels} = 10\cdot\log\left(\frac{I}{I_0}\right).$$
+where $I$ is the sound's intensity and $I_0$ is the intensity of a standard sound. The intensity of $I_0$ is defined to be $10^{-16}$ watts/cm$^2$.
+
+# Example 4
+The noise level of a whisper is 30 $dB$. Compute the sound intensity of a whisper.
+
+# Asymptotes and Limit Notation
+Let $y = f(x)$ be a function and let $a$ be a finite number.
+* The graph of $f$ has a **horizontal asymptote** of $y = a$ if
+$$\lim_{x \to \infty} f(x) = a \text{ or } \lim_{x \to -\infty} f(x) = a \text{ or both.}$$
+* The graph of $f$ has a **vertical asymptote** of $x = a$ if
+$$\lim_{x \to a^+} f(x) = \infty \text{ or } \lim_{x \to a^+} f(x) = -\infty \text{ or } \lim_{x \to a^-} f(x) = \infty \text{ or } \lim_{x \to a^-} f(x) = -\infty$$
+
+# 5.3 Assignments
+* Day 1, Page 203, 1-13 odd
+* Day 2, Page 203, 15-39 odd (#33 look at #32)
 
 # 5.4 Logarithmic Scales
 
