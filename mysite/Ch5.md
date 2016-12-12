@@ -255,7 +255,7 @@ The graph of $y = \ln(x)$ is similar to the graph of $y = \log(x)$, except it is
 Sketch the graph $y = \ln(x)$ for $0 < x < 10$ by hand.
 
 # Chemical Acidity
-$$pH = -\log$$
+$$pH = -\log\left[H^+\right]$$
 where $pH$ is the acidity of a liquid and $\left[H^+\right]$ is the hydrogen ion concentration.
 
 # Example 2
@@ -278,6 +278,7 @@ The noise level of a whisper is 30 $dB$. Compute the sound intensity of a whispe
 
 # Asymptotes and Limit Notation
 Let $y = f(x)$ be a function and let $a$ be a finite number.
+
 * The graph of $f$ has a **horizontal asymptote** of $y = a$ if
 $$\lim_{x \to \infty} f(x) = a \text{ or } \lim_{x \to -\infty} f(x) = a \text{ or both.}$$
 * The graph of $f$ has a **vertical asymptote** of $x = a$ if
