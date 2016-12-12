@@ -287,6 +287,8 @@ $$\lim_{x \to a^+} f(x) = \infty \text{ or } \lim_{x \to a^+} f(x) = -\infty \te
 # 5.3 Assignments
 * Day 1, Page 203, 1-13 odd
 * Day 2, Page 203, 15-39 odd (#33 look at #32)
+* Due Wednesday
+* 5.2 Assignment will be checked tomorrow.
 
 # 5.4 Logarithmic Scales
 
