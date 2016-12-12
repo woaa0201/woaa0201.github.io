@@ -232,7 +232,7 @@ $Q = 5(2)^{t/8} = 5\left(2^{\frac{1}{8}}\right)^t$, so $e^k = 2^{\frac{1}{8}}$ a
 
 ## Objectives
 * I can graph $\log(x)$ and $\ln(x)$ using their inverse functions.
-* 
+* I can solve word problems involving chemical acidity, decibals, and orders of magnitude.
 
 # The Graph, Domain, and Range of the Common Logarithm
 $\log(x)$ is the inverse of $10^x$, so the graph of $\log(x)$ is the reflection across $y = x$ of $10^x$.
