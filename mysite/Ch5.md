@@ -231,6 +231,7 @@ $Q = 5(2)^{t/8} = 5\left(2^{\frac{1}{8}}\right)^t$, so $e^k = 2^{\frac{1}{8}}$ a
 * Work time
 
 ## Objectives
+* I can graph $\log(x)$ and $\ln(x)$ using their inverse functions.
 * 
 
 # The Graph, Domain, and Range of the Common Logarithm
@@ -245,7 +246,7 @@ $\log(x)$ is the inverse of $10^x$, so the graph of $\log(x)$ is the reflection 
 \end{tikzpicture}
 
 The domain of $y = 10^x$ is all real numbers and the range is all positive real numbers.
-The domain of $y = \log(x)$ is 
+The domain of $y = \log(x)$ is all positive real numbers and the range is all real numbers.
 
 # Graph of Natural Logarithm
 The graph of $y = \ln(x)$ is similar to the graph of $y = \log(x)$, except it is the reflection across $y = x$ of $y = e^x$ instead of $y = 10^x$.
