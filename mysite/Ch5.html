@@ -381,8 +381,63 @@ x &amp;= \frac{\ln(7)-5}{1-\ln(2)}
 <div id="logarithmic-scales" class="slide section level1">
 <h1>5.4 Logarithmic Scales</h1>
 </div>
-<div id="chapter-5-review" class="slide section level1">
-<h1>Chapter 5 Review</h1>
+<div id="linear-scales" class="slide section level1">
+<h1>Linear Scales</h1>
+<p>The table below gives different distances of astronomical objects from earth.</p>
+
+<ul>
+<li>Plot these values on a number line with an increment of 100 million kilometers. Is it easy to compare the sizes of the distances to each other?</li>
+<li>Plot these values on a number line with an increment of 1 billion kilometers. Is it easy to compare the sizes of the distances to each other?</li>
+</ul>
+</div>
+<div id="logarithmic-scales-1" class="slide section level1">
+<h1>Logarithmic Scales</h1>
+
+<ul>
+<li>Now have your increment on a number line be powers of 10, so <span class="math inline">\(10^1\)</span>, <span class="math inline">\(10^2\)</span>, <span class="math inline">\(10^3\)</span>, etc. Plot each data point on the number line. Does this look better?</li>
+</ul>
+</div>
+<div id="example-1-2" class="slide section level1">
+<h1>Example 1</h1>
+<p>Microfinance refers to financial services, such as loans, offered to people with very low incomes. The table below shows the number of microborrowers in 2006.</p>
+
+</div>
+<div id="fitting-an-exponential-function-to-data" class="slide section level1">
+<h1>Fitting an Exponential Function to Data</h1>
+<p>It is possible to fit data to an exponential function. A good way to do this is to use a logarithmic scale and then fit that data to a linear function and convert back to a linear scale after.</p>
+<p>To fit an exponential formula, <span class="math inline">\(N = ae^{kt}\)</span>, to a set of data of the form <span class="math inline">\((t, N)\)</span>, we use three steps.</p>
+<ul>
+<li>Transform the data by taking the natural log of both sides and making the substitution <span class="math inline">\(y = \ln(N)\)</span>. This leads to the equation</li>
+</ul>
+<span class="math display">\[\begin{align*}
+y = \ln(N) &amp;= \ln(ae^{kt}) \\
+&amp;= \ln(a) + \ln(e^{kt}) \\
+&amp;= \ln(a) + kt
+\end{align*}\]</span>
+<p>Setting <span class="math inline">\(b = \ln(a)\)</span> gives a linear equation with <span class="math inline">\(k\)</span> as the slope and <span class="math inline">\(b\)</span> as the <span class="math inline">\(y\)</span>-intercept:</p>
+<p><span class="math display">\[y = b + kt\]</span></p>
+<ul>
+<li><p>Use linear regression ont he variables <span class="math inline">\(t\)</span> and <span class="math inline">\(y\)</span>. (Remember that <span class="math inline">\(y = \ln(N)\)</span>.)</p></li>
+<li><p>Transform the linear regression equation back into our original variables by substituting <span class="math inline">\(\ln(N)\)</span> for <span class="math inline">\(y\)</span> and solving for <span class="math inline">\(N\)</span>.</p></li>
+</ul>
+</div>
+<div id="example-2-2" class="slide section level1">
+<h1>Example 2</h1>
+
+<ul>
+<li>Use linear regression to find a linear function <span class="math inline">\(y = b + mx\)</span> that fits the data. Record the correlation coefficient.</li>
+<li>Use linear regression ont he values <span class="math inline">\(x\)</span> and <span class="math inline">\(\ln(y)\)</span> to fit a function of the form <span class="math inline">\(\ln(y) = b + mx\)</span>. Record the correlation coefficient. Convert to an exponential function <span class="math inline">\(y = ae^{kx}\)</span>.</li>
+<li>Compare the correlation coefficients. Graph the data and the two functions to assess which function fits best.</li>
+</ul>
+</div>
+<div id="assignments-2" class="slide section level1">
+<h1>5.4 Assignments</h1>
+<ul>
+<li>Day 1, Page 212, 1, 3, 9, 11, 13</li>
+<li>Day 2, Page 212, 5, 7, 15, 17, 21, 23</li>
+<li>Chapter 5 Review Assignment, Page 215, 1-63 odd</li>
+<li>Chapter 5 Test is on Thursday/Friday, January 5/6</li>
+</ul>
 </div>
 </body>
 </html>

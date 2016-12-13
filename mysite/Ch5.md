@@ -297,5 +297,110 @@ $$\lim_{x \to a^+} f(x) = \infty \text{ or } \lim_{x \to a^+} f(x) = -\infty \te
 * 5.2 Assignment, Page 194, 1-51 odd (not 43) will be checked today.
 
 # 5.4 Logarithmic Scales
+Objectives:
+* I can plot data using a logarithmic scale.
+* I can fit data on a logarithmic scale to a linear regression line and convert back to an exponential function.
 
-# Chapter 5 Review
+# Linear Scales
+The table below gives different distances of astronomical objects from earth.
+
+\begin{tabular}{c|c}
+Object & Distance (million km) \\ \hline \\
+Mercury & 58 \\
+Venus & 108 \\
+Earth & 149 \\
+Mars & 228 \\
+Jupiter & 778 \\
+Saturn & 1426 \\
+Uranus & 2869 \\
+Neptune & 4495 \\
+Pluto & 5900 \\
+Proxima Centauri & $4.9 \cdot 10^7$ \\
+Andromeda Galaxy & $2.4 \cdot 10^13$ \\
+\end{tabular}
+
+* Plot these values on a number line with an increment of 100 million kilometers. Is it easy to compare the sizes of the distances to each other?
+* Plot these values on a number line with an increment of 1 billion kilometers. Is it easy to compare the sizes of the distances to each other?
+
+# Logarithmic Scales
+
+\begin{tabular}{c|c}
+Object & Distance (million km) \\ \hline \\
+Mercury & 58 \\
+Venus & 108 \\
+Earth & 149 \\
+Mars & 228 \\
+Jupiter & 778 \\
+Saturn & 1426 \\
+Uranus & 2869 \\
+Neptune & 4495 \\
+Pluto & 5900 \\
+Proxima Centauri & $4.9 \cdot 10^7$ \\
+Andromeda Galaxy & $2.4 \cdot 10^13$ \\
+\end{tabular}
+
+* Now have your increment on a number line be powers of 10, so $10^1$, $10^2$, $10^3$, etc. Plot each data point on the number line. Does this look better?
+
+# Example 1
+Microfinance refers to financial services, such as loans, offered to people with very low incomes. The table below shows the number of microborrowers in 2006.
+
+\begin{tabular}{l|c}
+Region & Borrowers (millions) \\ \hline \\
+A: Africa & 8.4 \\
+B: Asia & 112.7 \\
+C: Eastern Europe and Central Asia & 3.4 \\
+D: Latin America and the Carribean & 6.8 \\
+E: Middle East and North Africa & 1.7 \\
+F: North America and Western Europe & 0.05
+\end{tabular}
+
+# Fitting an Exponential Function to Data
+
+It is possible to fit data to an exponential function. A good way to do this is to use a logarithmic scale and then fit that data to a linear function and convert back to a linear scale after.
+
+To fit an exponential formula, $N = ae^{kt}$, to a set of data of the form $(t, N)$, we use three steps.
+
+* Transform the data by taking the natural log of both sides and making the substitution $y = \ln(N)$. This leads to the equation
+
+\begin{align*}
+y = \ln(N) &= \ln(ae^{kt}) \\
+&= \ln(a) + \ln(e^{kt}) \\
+&= \ln(a) + kt
+\end{align*}
+
+Setting $b = \ln(a)$ gives a linear equation with $k$ as the slope and $b$ as the $y$-intercept:
+
+$$y = b + kt$$
+
+* Use linear regression ont he variables $t$ and $y$. (Remember that $y = \ln(N)$.)
+
+* Transform the linear regression equation back into our original variables by substituting $\ln(N)$ for $y$ and solving for $N$.
+
+# Example 2
+
+\begin{tabular}{c|c}
+\hline
+$x$ & $y$ \\ \hline \\
+0 & 244 \\
+0.8 & 210 \\
+5.8 & 205 \\
+23 & 167 \\
+53 & 125 \\
+102 & 107 \\
+150 & 72 \\
+207 & 35 \\
+287 & 12 \\
+333 & 4.8 \\
+408 & 2.3 \\
+495 & 1.2
+\end{tabular}
+
+* Use linear regression to find a linear function $y = b + mx$ that fits the data. Record the correlation coefficient.
+* Use linear regression ont he values $x$ and $\ln(y)$ to fit a function of the form $\ln(y) = b + mx$. Record the correlation coefficient. Convert to an exponential function $y = ae^{kx}$.
+* Compare the correlation coefficients. Graph the data and the two functions to assess which function fits best.
+
+# 5.4 Assignments
+* Day 1, Page 212, 1, 3, 9, 11, 13
+* Day 2, Page 212, 5, 7, 15, 17, 21, 23
+* Chapter 5 Review Assignment, Page 215, 1-63 odd
+* Chapter 5 Test is on Thursday/Friday, January 5/6
